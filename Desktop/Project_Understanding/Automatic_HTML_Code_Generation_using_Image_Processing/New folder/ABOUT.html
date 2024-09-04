@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        body{
+            background-color: rgb(242, 238, 238);
+        }
+        *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    .main{
+        width: 100%;
+        background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(1.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 150vh;
+    }
+    
+    .navbar{
+        width: 1200px;
+        height: 75px;
+        margin: auto;
+    }
+    
+    .icon{
+        width: 200px;
+        float: left;
+        height: 70px;
+    }
+    
+    .logo{
+        color: #ff7200;
+        font-size: 35px;
+        font-family: Arial;
+        padding-left: 20px;
+        float: left;
+        padding-top: 10px;
+        margin-top: 5px
+    }
+    
+    .menu{
+        width: 400px;
+        float: left;
+        height: 70px;
+    }
+    
+    ul{
+        float: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    ul li{
+        list-style: none;
+        margin-left: 62px;
+        margin-top: 27px;
+        font-size: 14px;
+        position : relative;
+    }
+    
+    ul li a{
+        text-decoration: none;
+        color: #fff;
+        font-family: Arial;
+        font-weight: bold;
+        transition: 0.4s ease-in-out;
+    }
+    
+    ul li a:hover{
+        color: #ff7200;
+    }
+    ul li::after{
+        content: '';
+        width: 0%;
+        height: 2px;
+        background: #ff7200;
+        display: block;
+        margin: auto;
+        transition: 0.5s;
+    
+    }
+    ul li:hover::after{
+        width: 100%;
+    }
+    
+    
+    
+    
+    .srch{
+        font-family: 'Times New Roman';
+        width: 200px;
+        height: 40px;
+        background: transparent;
+        border: 1px solid #ff7200;
+        margin-top: 13px;
+        color: #fff;
+        border-right: none;
+        font-size: 16px;
+        float: left;
+        padding: 10px;
+        border-bottom-left-radius: 5px;
+        border-top-left-radius: 5px;
+        
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .member {
+        width: 300px;
+        margin: 20px;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .member img {
+        width: 100%;
+        border-radius: 50%;
+        margin-bottom: 10px;
+    }
+    }
+    footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+    </style>
+</head>
+    <body>
+        <div class="main">
+            <div class="navbar">
+                <div class="icon">
+                    <h2 class="logo"><img src="Screenshot 2024-04-09 134554.png" style="width:100px;"></h2>
+                </div>
+                &emsp;
+    
+                <div class="menu">
+                    
+                    <ul>
+                       
+                        <li><a href="HOME.html">HOME</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="MEMBERS.html">MEMBERS</a></li>
+                        <li><a href="CONTACT.html">CONTACT</a></li>
+                    </ul>
+                </div>
+    
+            </br>
+           </br>
+            </div>
+       
+
+           <footer>
+            <nav>
+                <a href="#">Home</a> |
+                <a href="#">About</a> |
+                <a href="#">Contact</a> |
+                <a href="#">Members</a>
+            </nav>
+            <div class="contact-info">
+                <p>Email: info@example.com</p>
+                <p>Phone: 123-456-7890</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
+           

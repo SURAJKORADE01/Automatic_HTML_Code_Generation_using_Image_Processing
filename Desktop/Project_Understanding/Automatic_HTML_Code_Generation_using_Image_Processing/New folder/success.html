@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image to HTML</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #908888;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+            margin-top: 50px;
+        }
+        figure {
+            margin-top: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        p {
+            color: #555;
+            margin-top: 20px;
+            font-size: 18px;
+        }
+        a {
+            color: #0056b3;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        a:hover {
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <h1>Your Input</h1>
+    <figure>
+        <img src='/sample.png' alt="Sample Image">
+    </figure>
+    <h1>Your HTML Code</h1>
+    <p>{{content}}</p>
+    <br><br>
+    <a href="sample.html">Click here to view as a web page</a>
+</body>
+</html>

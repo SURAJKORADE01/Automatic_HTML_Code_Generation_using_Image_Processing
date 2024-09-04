@@ -1,0 +1,6 @@
+Name:
+School: [
+Languages: oO CPP
+oO Python
+Gender: O Male
+O- Female

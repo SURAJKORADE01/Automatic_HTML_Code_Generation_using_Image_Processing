@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        body{
+            background-color: rgb(242, 238, 238);
+        }
+        *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    .main{
+        width: 100%;
+        background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(1.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 190vh;
+    }
+    
+    .navbar{
+        width: 1200px;
+        height: 75px;
+        margin: auto;
+    }
+    
+    .icon{
+        width: 200px;
+        float: left;
+        height: 70px;
+    }
+    
+    .logo{
+        color: #ff7200;
+        font-size: 35px;
+        font-family: Arial;
+        padding-left: 20px;
+        float: left;
+        padding-top: 10px;
+        margin-top: 5px
+    }
+    
+    .menu{
+        width: 400px;
+        float: left;
+        height: 70px;
+    }
+    
+    ul{
+        float: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    ul li{
+        list-style: none;
+        margin-left: 62px;
+        margin-top: 27px;
+        font-size: 14px;
+        position : relative;
+    }
+    
+    ul li a{
+        text-decoration: none;
+        color: #fff;
+        font-family: Arial;
+        font-weight: bold;
+        transition: 0.4s ease-in-out;
+    }
+    
+    ul li a:hover{
+        color: #ff7200;
+    }
+    ul li::after{
+        content: '';
+        width: 0%;
+        height: 2px;
+        background: #ff7200;
+        display: block;
+        margin: auto;
+        transition: 0.5s;
+    
+    }
+    ul li:hover::after{
+        width: 100%;
+    }
+    
+    
+    
+    
+    .srch{
+        font-family: 'Times New Roman';
+        width: 200px;
+        height: 40px;
+        background: transparent;
+        border: 1px solid #ff7200;
+        margin-top: 13px;
+        color: #fff;
+        border-right: none;
+        font-size: 16px;
+        float: left;
+        padding: 10px;
+        border-bottom-left-radius: 5px;
+        border-top-left-radius: 5px;
+    }
+    
+    h1 {
+        text-align: center;
+        margin-top: 50px;
+        color: #333;
+    }
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .member {
+        width: 300px;
+        margin: 20px;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s;
+    }
+    .member:hover {
+        transform: translateY(-5px);
+    }
+    .member img {
+        width: 100%;
+        border-radius: 50%;
+        margin-bottom: 20px;
+    }
+    .member h2 {
+        margin: 0;
+        color: #333;
+        font-size: 24px;
+    }
+    .member p {
+        color: #666;
+        font-size: 16px;
+        line-height: 1.6;
+    }
+    .button {
+    display: block;
+    width: 200px; /* Set the desired width */
+    margin: 0 auto; /* Center the button horizontally */
+    background-color: #ff7200; /* Set the background color */
+    color: #fff; /* Set the text color */
+    text-align: center; /* Center the text inside the button */
+    padding: 10px; /* Add some padding around the text */
+    text-decoration: none; /* Remove underline from the text */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add rounded corners */
+}
+</style>
+</head>
+<body>
+    
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo"><img src="Screenshot 2024-04-09 134554.png" style="width:100px;"></h2>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="HOME.html">HOME</a></li>
+                    <li><a href="ABOUT.html">ABOUT</a></li>
+                    <li><a href="MEMBERS.html">MEMBERS</a></li>
+                    <li><a href="CONTACT.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </br>
+    </br>
+    <h1>Meet Our Team</h1>
+    <div class="container">
+        <div class="member">
+            <img src="Passport.jpeg" alt="Member 1">
+            <h2>Ganesh Khirsagar</h2>
+            <p>Lead Developer</br> student at smt.kashibai navle college of engineering</p>
+        </div>
+        <div class="member">
+            <img src="member2.jpeg" alt="Member 2">
+            <h2>Mahesh Makne</h2>
+            <p>Designer</br>student at pune cambridge institute & Management</p>
+        <!-- </div>
+        <div class="member">
+            <img src="member3.jpg" alt="Member 3">
+            <h2>Avishkar Kotkar</h2>
+            <p>Marketing </br> student at smt.kashibai navle college of engineering</p>
+        </div>
+        <div class="member">
+            <img src="member4.jpg" alt="Member 4">
+            <h2>suraj korde</h2>
+            <p>Content Write</br> student at smt.kashibai navle college of engineeringr</p>
+        </div> -->
+        
+        
+    </body>
+        
+        
+
+    </div>
+    <button class="center"><a href="index.html">Back</a></button>
+</body>
+</html>

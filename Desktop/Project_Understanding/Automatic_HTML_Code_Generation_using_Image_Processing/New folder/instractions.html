@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Code Generator</title>
+    
+    <style>
+        /* Your existing CSS styles here */
+
+        /* Additional styles for enhancements */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        .hero {
+            background: linear-gradient(to top, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.5) 50%), url('hero-image.jpg');
+            background-position: center;
+            background-size: cover;
+            height: 60vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+            padding: 0 20px;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        /* Additional styles for animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .fade-in-up {
+            animation: fadeInUp 0.5s ease-out;
+        }
+
+        /* Styling for main content */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            margin-top: -30px; /* Adjust as needed */
+        }
+
+        /* Styling for buttons */
+        .nav-button {
+            padding: 10px 20px;
+            border: none;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            background-color: #007bff;
+            margin-top: 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        .nav-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <div class="content fade-in-up">
+            <h1>Welcome to Our Website</h1>
+            <p>Learn about sign conventions and see sample images.</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>Image to HTML Converter</h1>
+        <div class="navigation">
+            <button class="nav-button" onclick="showPage('sign-conventions')">Sign Conventions</button>
+            <button class="nav-button" onclick="showPage('sample')">Sample</button>
+        </div>
+        <div id="sign-conventions" class="page">
+            <h2>Sign Conventions</h2>
+            <p>Explanation of sign conventions goes here.</p>
+            <img src="sign_conventions.png" alt="Sign Conventions">
+        </div>
+        <div id="sample" class="page">
+            <h2>Sample</h2>
+            <p>Sample images and explanation go here.</p>
+            <img src="input.png" alt="Input Sample">
+            <img src="webpage.png" alt="Webpage Sample">
+        </div>
+    </div>
+
+    <!-- Your existing footer content here -->
+
+    <!-- Updated footer with improved styling -->
+    <footer style="background-color: #333; color: #fff; text-align: center; padding: 20px;">
+        <a href="index.html" style="color: #ff7200; text-decoration: none; margin-top: 20px; display: inline-block; padding: 10px 20px; background-color: #007bff; border-radius: 5px; transition: background-color 0.3s ease;">Back to Home</a>
+    </br>
+        <nav>
+            <a href="HOME.html">Home</a> |
+            <a href="ABOUT.html">About</a> |
+            <a href="CONTACT.html">Contact</a> |
+            <a href="MEMBERS.html">Members</a>
+        </nav>
+        <div class="contact-info">
+            <p>Email: info@example.com</p>
+            <p>Phone: 123-456-7890</p>
+        </div>
+    </footer>
+</body>
+</html>
+
